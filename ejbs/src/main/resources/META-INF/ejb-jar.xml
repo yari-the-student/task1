@@ -3,14 +3,4 @@
         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
                             http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd"
         version="3.1">
-	<enterprise-beans>
-	    <session>
-	        <ejb-name>UserManager</ejb-name>
-	        <business-remote>org.yari.task1.UserManagerRemote</business-remote>
-	        <ejb-class>org.yari.task1.UserManagerImpl</ejb-class>
-	        <session-type>Stateless</session-type>
-	        <init-on-startup>true</init-on-startup>
-	        <transaction-type>Container</transaction-type>
-        </session>
-	</enterprise-beans>
 </ejb-jar>
