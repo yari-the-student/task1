@@ -6,7 +6,7 @@ import javax.ejb.Stateless;
 
 import org.yari.task1.dao.UserDao;
 
-@Stateless(name = "UserManagerRemote")
+@Stateless(name = "UserManager")
 @Remote(UserManagerRemote.class)
 public class UserManagerImpl implements UserManagerRemote {
 

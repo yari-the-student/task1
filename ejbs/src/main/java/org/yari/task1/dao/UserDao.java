@@ -1,10 +1,14 @@
 package org.yari.task1.dao;
 
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import org.yari.task1.entity.User;
 
+@Stateless
+@LocalBean
 public class UserDao extends AbstractDao<User> {
 
     @PersistenceContext(unitName = "task1_pu")
